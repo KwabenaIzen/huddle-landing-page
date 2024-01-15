@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main__body{
+    background-image: url("/images/bg-desktop.svg");
+    height: 100vh;
+    width: 0 auto;
+    overflow: hidden;
+    /* background-size: c; */
+    background-color: hsl(257, 40%, 49%);
+    padding: 50px;
+}
+p{
+    font-family: open sans;
+    color: rgb(211, 203, 203);
+}
+h1{
+    font-family: poppins;
+    color: white;
+}
+.page__body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+}
+.upper__panel{
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.upper__panel img{
+    /* width: 500px; */
+    height:50px;
+    
+}
+.right__panel{
+    padding-top: 50px;
+    padding-right:90px;
+    padding-left: 50px;
+    max-width: 600px;
+}
+.right__panel h1{
+    padding: 20px;
+    line-height: 35px;
+}
+.right__panel p{ 
+    padding: 20px;
+    line-height: 20px;
+}
+
+.card__image img{
+    padding-top: 20px;
+    padding-left: 15px;
+    /* height: 550px; */
+}
+.right__panel a{
+    justify-content: center;
+    border-radius: 30px;
+   padding: 15px;
+    display: flex;
+    font-family: open sans;
+   text-decoration: none;
+   color:hsl(257, 40%, 49%);
+   width: 200px;
+   background-color: white;
+}
+.right__panel a:hover{
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.2s
+};
+
+.link{
+    
+   
+    padding: 20px;
+    
+}
+.icons .instagram{
+    position: absolute;
+    top: 90%;
+    left: 92%;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+  
+    
+}
+.icons .instagram:hover{
+    color:hsl(300, 69%, 71%) ;
+    border: 2px solid hsl(300, 69%, 71%);
+}
+.icons .twitter{
+    position: absolute;
+    top: 90%;
+    left: 88%;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+}
+.icons .twitter:hover{
+     color:hsl(300, 69%, 71%) ;
+    border: 2px solid hsl(300, 69%, 71%);
+
+}
+.icons .facebook{
+    position: absolute;
+    top: 90%;
+    left: 84%;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+}
+.icons .facebook:hover{
+    color:hsl(300, 69%, 71%) ;
+    border: 2px solid hsl(300, 69%, 71%);
+
+}
+    
+ 
